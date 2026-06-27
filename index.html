@@ -584,7 +584,10 @@
       else document.getElementById('f-contact').focus();
       return;
     }
-
+if(!document.getElementById('f-consent').checked){
+      alert('Поставьте галочку согласия, чтобы отправить заявку.');
+      return;
+    }
     btn.disabled = true;
     const btnText = btn.innerHTML;
     btn.innerHTML = 'Отправляем…';
