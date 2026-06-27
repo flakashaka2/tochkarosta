@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tochkarostageo.github.io/sitemap.xml
